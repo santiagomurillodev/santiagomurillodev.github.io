@@ -31,11 +31,11 @@ function updateUI() {
   elProjectsTitle.textContent = data.projectsTitle;
 
   elAboutText.innerHTML = data.aboutText;
-  
+
   elContactList.innerHTML = `
     <li><i data-lucide="phone"></i> <a href="tel:+523322750920" class="contact-link">33 22 75 09 20</a></li>
     <li><i data-lucide="mail"></i> <a href="mailto:santiagomurillx@gmail.com" class="contact-link">santiagomurillx@gmail.com</a></li>
-    <li><i data-lucide="linkedin"></i> <a href="https://linkedin.com/in/santiagomurillx" target="_blank" class="contact-link">linkedin.com/in/santiagomurillx</a></li>
+    <li><i data-lucide="linkedin"></i> <a href="https://www.linkedin.com/in/santiagomurillx/" target="_blank" class="contact-link">linkedin.com/in/santiagomurillx</a></li>
   `;
 
   elSkills.innerHTML = data.skills.map(skill => `<li>${skill}</li>`).join('');
@@ -69,7 +69,7 @@ function updateUI() {
 
   const langTextValue = currentLang === 'es' ? 'EN' : 'ES';
   langToggleBtn.innerHTML = `<i data-lucide="globe"></i> <span id="langText">${langTextValue}</span>`;
-  
+
   document.getElementById('downloadText').textContent = data.downloadBtn;
 
   lucide.createIcons();
@@ -112,13 +112,17 @@ downloadBtn.addEventListener('click', () => {
   html.removeAttribute('data-theme');
   cvDocument.classList.add('is-exporting');
 
-  setTimeout(() => {
-    window.print();
-    cvDocument.classList.remove('is-exporting');
-    if (originalTheme === 'dark') {
-      html.setAttribute('data-theme', 'dark');
-    }
-  }, 100);
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        window.print();
+        cvDocument.classList.remove('is-exporting');
+        if (originalTheme === 'dark') {
+          html.setAttribute('data-theme', 'dark');
+        }
+      }, 500);
+    });
+  });
 });
 
 updateUI();
