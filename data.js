@@ -34,7 +34,7 @@ const cvData = {
       {
         title: "Ingeniero de Pruebas automatizadas (QA)",
         company: "Foxconn",
-        date: "Noviembre 2024 - Actualidad",
+        date: "Noviembre 2024 - Diciembre 2025",
         desc: "Líder en el diagnóstico y resolución de fallas complejas de software ERP. Implementación de suites de pruebas automatizadas ejecutadas en entornos Linux, reduciendo el tiempo de resolución en un 30%. Creación de scripts y automatizaciones por terminal para optimizar los procesos de manufactura diarios de manera ininterrumpida."
       },
       {
@@ -92,7 +92,7 @@ const cvData = {
       {
         title: "Automated QA Test Engineer",
         company: "Foxconn",
-        date: "November 2024 - Present",
+        date: "November 2024 - December 2025",
         desc: "Lead the diagnosis and resolution of complex ERP software failures. Implemented automated testing suites executed within Linux environments, reducing ticket resolution time by 30%. Created terminal scripts and automation workflows to considerably optimize daily manufacturing processes without interruptions."
       },
       {
