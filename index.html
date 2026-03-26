@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Carlos Santiago Martínez Murillo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="controls-container">
+    <button id="themeToggle" class="control-btn" aria-label="Toggle Theme">
+      <i data-lucide="moon"></i> <span id="themeText">Modo Oscuro</span>
+    </button>
+    <button id="langToggle" class="control-btn" aria-label="Toggle Language">
+      <i data-lucide="globe"></i> <span id="langText">EN</span>
+    </button>
+    <button id="downloadBtn" class="control-btn download-btn">
+      <i data-lucide="download"></i> <span id="downloadText">Descargar CV</span>
+    </button>
+  </div>
+
+  <div class="cv-wrapper" id="cv-document">
+    <header class="header">
+      <h1 id="cv-name"></h1>
+      <h3 id="cv-profession"></h3>
+      <ul class="contact-list" id="cv-contact-list"></ul>
+    </header>
+
+    <section class="section">
+      <h2 id="cv-aboutTitle"></h2>
+      <div id="cv-aboutText" class="text-content"></div>
+    </section>
+
+    <section class="section experience-section">
+      <h2 id="cv-experienceTitle"></h2>
+      <div id="cv-experience" class="experience-list"></div>
+    </section>
+
+    <section class="section projects-section">
+      <h2 id="cv-projectsTitle"></h2>
+      <div id="cv-projects" class="experience-list"></div>
+    </section>
+
+    <section class="section skills-section">
+      <h2 id="cv-skillsTitle"></h2>
+      <ul id="cv-skills" class="skills-list"></ul>
+    </section>
+
+    <section class="section education-section">
+      <h2 id="cv-educationTitle"></h2>
+      <div id="cv-education" class="education-list"></div>
+    </section>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
