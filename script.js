@@ -36,6 +36,7 @@ function updateUI() {
     <li><i data-lucide="phone"></i> <a href="tel:+523322750920" class="contact-link">33 22 75 09 20</a></li>
     <li><i data-lucide="mail"></i> <a href="mailto:santiagomurillx@gmail.com" class="contact-link">santiagomurillx@gmail.com</a></li>
     <li><i data-lucide="linkedin"></i> <a href="https://www.linkedin.com/in/santiagomurillx/" target="_blank" class="contact-link">linkedin.com/in/santiagomurillx</a></li>
+    <li><i data-lucide="globe"></i> <a href="https://santiagomurillx.com" target="_blank" class="contact-link">santiagomurillx.com</a></li>
   `;
 
   elSkills.innerHTML = data.skills.map(skill => `<li>${skill}</li>`).join('');
