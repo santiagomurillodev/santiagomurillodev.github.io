@@ -15,7 +15,7 @@ const cvData = {
       "Desarrollo de Software (JS, React, Next.js, Astro, Node, Tailwind, Python)",
       "Backend y Datos (Supabase, PostgreSQL, RESTful APIs, Diseño SQL)",
       "Infraestructura y Ops (AWS EC2/S3, Linux Admin, Bash Scripting, Docker, CI/CD, Git)",
-      "Hardware y TI (ServiceNow, Diagnósticos L2/L3, SAP, Impresión 3D PETG/TPU)",
+      "Hardware y TI (ServiceNow, Diagnósticos L2/L3, SAP)",
       "QA Automation (Python, Selenium, Jest)"
     ],
     education: [
@@ -72,7 +72,7 @@ const cvData = {
       "Software Development (JS, React, Next.js, Astro, Node, Tailwind, Python)",
       "Backend & Data (Supabase, PostgreSQL, RESTful APIs, Database Design)",
       "Infrastructure & Ops (AWS EC2/S3, Linux Admin, Bash Scripting, Docker, CI/CD, Git)",
-      "Hardware & IT (ServiceNow, L2/L3 Diagnostics, SAP Operations, 3D Printing)",
+      "Hardware & IT (ServiceNow, L2/L3 Diagnostics, SAP Operations)",
       "QA Automation (Python, Selenium, Jest)"
     ],
     education: [
