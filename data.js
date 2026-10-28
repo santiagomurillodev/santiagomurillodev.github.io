@@ -1,6 +1,6 @@
 const cvData = {
   es: {
-    title: "CV Profesional",
+    title: "Santiago Murillo CV",
     name: "Carlos Santiago Martínez Murillo",
     profession: "SOFTWARE ENGINEER & INFRASTRUCTURE SPECIALIST",
     skillsTitle: "HABILIDADES",
@@ -57,7 +57,7 @@ const cvData = {
     ],
   },
   en: {
-    title: "Professional CV",
+    title: "Santiago Murillo Resume",
     name: "Carlos Santiago Martínez Murillo",
     profession: "SOFTWARE ENGINEER & INFRASTRUCTURE SPECIALIST",
     skillsTitle: "SKILLS",
